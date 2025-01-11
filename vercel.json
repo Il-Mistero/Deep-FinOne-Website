@@ -12,10 +12,12 @@
       {
         "src": "Frontend.js",
         "use": "@vercel/static"
-      },
-      {
-        "src": "Multimedia/",
-        "use": "@vercel/static"
       }
-    ]
-  }
+    ],
+    "routes": [
+    {
+      "src": "/Multimedia/(.*)",
+      "dest": "/Multimedia/$1"
+    }
+   ]
+}
