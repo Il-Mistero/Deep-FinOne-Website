@@ -135,7 +135,7 @@ body {
 
 .rolling-content {
     display: flex;
-    animation: scroll 30s linear infinite;
+    animation: scroll 40s linear infinite;
     gap: 50px;
     white-space: nowrap;
 }
@@ -663,6 +663,7 @@ body {
     overflow: visible;
     width: 100%;
     gap: 2rem;
+    color: #ffffff;
     margin: 0;
     padding: 10px 20px;
     background: transparent;
@@ -674,7 +675,7 @@ body {
 }
 
 .footer .left-section h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 0;
     font-weight: bold;
 }
@@ -693,7 +694,7 @@ body {
     display: block;
     margin-bottom: 20px;
     font-size: 0.9rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .subscribe .email-signup {
